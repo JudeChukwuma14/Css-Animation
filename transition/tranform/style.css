@@ -1,0 +1,26 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    /* transition-delay: 2s; */
+    /* transition-duration: 2s;
+    transition-timing-function: linear; */
+    transition: 2s;
+}
+.round:hover{
+    background-color: green;
+    transform: rotateX(360deg);
+}
