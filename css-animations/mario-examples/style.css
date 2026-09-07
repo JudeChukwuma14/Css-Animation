@@ -55,7 +55,7 @@ html, body{
   animation: wind 80s infinite reverse linear;
 }
 
-.mario{
+#mario{
   position: absolute;
   width: 100px;
   top: -120px;
@@ -68,7 +68,7 @@ html, body{
   animation-timing-function: linear;
 }
 
-.luigi{
+#luigi{
   position: absolute;
   left: 0;
   top: -50px;
